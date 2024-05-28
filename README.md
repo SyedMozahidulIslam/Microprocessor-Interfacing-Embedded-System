@@ -24,7 +24,7 @@ To get started with these programs, you will need:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/assembly-series-sum.git
+   git clone https://github.com/SyedMozahidulIslam/Microprocessor-Interfacing-Embedded-System.git
    cd assembly-series-sum
    ```
 
@@ -50,16 +50,16 @@ int 21h
 
 mov ah, 1
 int 21h
-sub al, 48  ; Convert ASCII to numeric
+sub al, 48 
 mov n, al
 
 lea si, arr
 mov [si], 1
 mov bl, 2
-dec al       ; n = n - 1
-mov ah, 0    ; clear AH
-mov dx, ax   ; move AX to DX
-mov cx, dx   ; initialize loop counter
+dec al      
+mov ah, 0   
+mov dx, ax 
+mov cx, dx  
 
 loop1:
     mov al, [si]
@@ -70,8 +70,8 @@ loop1:
 
 ; Calculate the sum of the series
 mov si, offset arr
-mov sum, 0   ; Initialize sum to 0
-mov cx, n    ; Set loop counter to n
+mov sum, 0  
+mov cx, n   
 
 calc_sum:
     mov al, [si]
@@ -81,10 +81,10 @@ calc_sum:
 
 ret
 
-msg1 db "Enter a number: $"
+msg1 db "Enter N: $"
 n db 0
 arr db 9 dup(0)
-sum db 0  ; Variable to store the sum of the series
+sum db 0 
 ```
 
 ## Repository Structure
