@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is fully coded and made by me that contains Assembly language programs designed to demonstrate various operations such as generating arithmetic series, summing elements of an array, and more. The primary focus is on building a series of numbers and computing their summation, showcasing fundamental assembly programming techniques using the EMU8086 emulator. These programs serve as educational examples for understanding the basics of assembly language and the Intel 8086 instruction set.
+This repository is fully coded and made by me **Syed Mozahidul Islam Fahim ( SMI Fahim )** that contains Assembly language programs designed to demonstrate various operations such as generating arithmetic series, summing elements of an array, and more. The primary focus is on building a series of numbers and computing their summation, showcasing fundamental assembly programming techniques using the EMU8086 emulator. These programs serve as educational examples for understanding the basics of assembly language and the Intel 8086 instruction set.
 
 ## Features
 
